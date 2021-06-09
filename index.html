@@ -42,7 +42,9 @@
             <svg class="header-addr__icon" width="16" height="12">
               <use href="./images/icons.svg#envelope"></use>
             </svg>
-            <a href="mailto:info@devstudio.com" class="header-addr__link link"> info@devstudio.com </a>
+            <a href="mailto:info@devstudio.com" class="header-addr__link link">
+              info@devstudio.com
+            </a>
           </li>
           <li class="header-addr__item">
             <svg class="header-addr__icon" width="10" height="16">
@@ -71,7 +73,7 @@
                 </svg>
               </div>
               <h3 class="advantages__title">Внимание к деталям</h3>
-              <p class="advantage__text">
+              <p class="advantages__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
@@ -82,7 +84,7 @@
                 </svg>
               </div>
               <h3 class="advantages__title">Пунктуальность</h3>
-              <p class="advantage__text">
+              <p class="advantages__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
@@ -94,7 +96,7 @@
                 </svg>
               </div>
               <h3 class="advantages__title">Планирование</h3>
-              <p class="advantage__text">
+              <p class="advantages__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
@@ -105,7 +107,7 @@
                 </svg>
               </div>
               <h3 class="advantages__title">Современные технологии</h3>
-              <p class="advantage__text">
+              <p class="advantages__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -355,11 +357,23 @@
           >
           <address>
             <ul class="list">
-              <li><a href="" class="footer-addr__link footer-addr__link--real link">г. Киев, пр-т Леси Украинки, 26</a></li>
-              <li>
-                <a href="mailto:info@example.com" class="footer-addr__link footer-addr__link--email link">info@example.com</a>
+              <li class="footer-addr">
+                <a href="" class="footer-addr__link footer-addr__link--real link">
+                  г. Киев, пр-т Леси Украинки, 26
+                </a>
               </li>
-              <li><a href="tel:+380961111111" class="footer-addr__link footer-addr__link--phone link">+38 096 111 11 11</a></li>
+              <li class="footer-addr">
+                <a
+                  href="mailto:info@example.com"
+                  class="footer-addr__link footer-addr__link--email link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-addr">
+                <a href="tel:+380961111111" class="footer-addr__link footer-addr__link--phone link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
             </ul>
           </address>
         </div>
@@ -405,11 +419,7 @@
               type="email"
               placeholder="E-mail"
             />
-            <button 
-              class="subscribe__button"
-              type="submit"> 
-              Подписаться
-            </button>
+            <button class="subscribe__button" type="submit">Подписаться</button>
             <svg class="subscribe__icon">
               <use href="./images/icons.svg#send"></use>
             </svg>
@@ -471,7 +481,7 @@
             <a href="#" class="license__link">Условия договора</a>
           </span>
         </label>
-        <button type="submit" class="license__button">Отправить</button>
+        <button type="submit" class="modal__button">Отправить</button>
       </form>
     </div>
     <script src="./js/modal.js"></script>
